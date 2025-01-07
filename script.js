@@ -74,3 +74,24 @@ const container = document.getElementById('cardsContainer');
 
   // Initialize
   createDots();
+
+
+
+
+  function scrollLeft() {
+    const carousel = document.querySelector('.n3');
+    carousel.scrollBy({
+        top: 0,
+        left: -300,
+        behavior: 'smooth'
+    });
+}
+
+function scrollRight() {
+    const carousel = document.querySelector('.n3');
+    carousel.scrollBy({
+        top: 0,
+        left: 300,
+        behavior: 'smooth'
+    });
+}

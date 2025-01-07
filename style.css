@@ -226,7 +226,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 80px;
+    padding: 20px;
 }
 
 .course-container {
@@ -236,15 +236,13 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 
 .course {
     /* width: 80%; */
     display: flex;
-
-
     flex-direction: column;
     gap: 10px;
 
@@ -793,23 +791,24 @@ footer button:hover {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding-bottom: 20px; /* Ensure space for buttons */
-  }
+    padding-bottom: 20px;
+    /* Ensure space for buttons */
+}
 
-  .feedback-heading h2 {
+.feedback-heading h2 {
     font-size: 36px;
     font-weight: bold;
     color: #000;
     margin: 0;
-  }
+}
 
-  .highlighted {
+.highlighted {
     color: #04c3a1;
     position: relative;
     display: inline-block;
-  }
+}
 
-  .highlighted::after {
+.highlighted::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -818,20 +817,20 @@ footer button:hover {
     height: 6px;
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="6" viewBox="0 0 100 6"><path d="M0 3 C25 6, 75 6, 100 3" stroke="%23FEC17A" stroke-width="6" fill="none" /></svg>') no-repeat;
     background-size: 100% 100%;
-  }
+}
 
-  .feedback-heading p {
+.feedback-heading p {
     color: #666;
     font-size: 14px;
     margin: 10px 0 0;
-  }
+}
 
-  .cards-container {
+.cards-container {
     display: flex;
     transition: transform 0.4s ease-in-out;
-  }
+}
 
-  .card {
+.card {
     min-width: 300px;
     max-width: 300px;
     margin: 0 10px;
@@ -840,36 +839,36 @@ footer button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-  }
+}
 
-  .card img {
+.card img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
-  }
+}
 
-  .card h4 {
+.card h4 {
     margin: 0;
     font-size: 18px;
-  }
+}
 
-  .card p {
+.card p {
     font-size: 14px;
     color: #555;
     line-height: 1.5;
-  }
+}
 
-  .scroll-buttons {
+.scroll-buttons {
     position: absolute;
     bottom: 10px;
     right: 10px;
     display: flex;
     gap: 10px;
-  }
+}
 
-  .scroll-btn {
+.scroll-btn {
     background-color: #04c3a1;
     color: white;
     border: none;
@@ -881,22 +880,136 @@ footer button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .dots {
+.dots {
     text-align: center;
     margin-top: 10px;
-  }
+}
 
-  .dot {
+.dot {
     display: inline-block;
     width: 10px;
     height: 10px;
     margin: 0 5px;
     background-color: #ddd;
     border-radius: 50%;
-  }
+}
 
-  .dot.active {
+.dot.active {
     background-color: #04c3a1;
-  }
+}
+
+/* our best Instructor cards  */
+
+.n1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+.n2 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.n3 {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* padding: 20px; */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.n4 {
+    min-width: 250px;
+    max-width: 300px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.n4 img {
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.n4 h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.n4 p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.n5 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 10px;
+    pointer-events: none;
+}
+
+.n6 {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    pointer-events: auto;
+}
+
+.n6:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .n4 {
+        min-width: 200px;
+    }
+
+    .n4 img {
+        height: 150px;
+    }
+
+    .n5 {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n4 {
+        min-width: 150px;
+    }
+
+    .n4 h3 {
+        font-size: 1rem;
+    }
+
+    .n4 p {
+        font-size: 0.8rem;
+    }
+}
