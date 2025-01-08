@@ -27,6 +27,7 @@ body {
 }
 
 /* nav-bar */
+
 .logo p span {
     font-size: 1.3rem;
 }
@@ -38,7 +39,6 @@ body {
 .dex {
     font-style: italic;
     color: #FFC27A;
-
 }
 
 .nav-bar {
@@ -52,7 +52,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .nav-bar ul li {
@@ -63,7 +62,6 @@ body {
 .nav-bar ul a {
     text-decoration: none;
     color: #83898E;
-
 }
 
 .nav-bar ul a:hover {
@@ -75,8 +73,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .btn {
@@ -88,13 +84,11 @@ body {
 }
 
 .child-1 {
-
     margin-left: 5px;
 }
 
 .child-1 i {
     background-color: #FFFFFF;
-
 }
 
 .sign-up {
@@ -169,7 +163,6 @@ body {
 .text-content {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     gap: 20px;
 }
@@ -197,29 +190,24 @@ body {
     align-items: center;
     box-shadow: 0px 0px 5px 0px #f1eeee;
     padding: .8rem;
-
 }
 
 .input-InHome input {
     border: none;
     outline: none;
     width: 100%;
-
 }
 
 
 /* About  */
+
 #about {
     height: 380px;
     width: 100%;
     background-color: #F0FBF7
 }
 
-
-
-
 /* Course */
-
 
 #Course {
     display: flex;
@@ -231,28 +219,22 @@ body {
 
 .course-container {
     width: 80%;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    /* padding: 10px; */
-
 }
 
 .course {
-    /* width: 80%; */
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 
 .child {
     display: flex;
     gap: 50px;
     justify-content: space-between;
-
 }
 
 .child-I {
@@ -272,8 +254,6 @@ body {
 
 .child-I:hover {
     border: 1.5px solid #20B486;
-
-
 }
 
 .detail span {
@@ -307,21 +287,17 @@ body {
     color: #20B486;
 }
 
-
 /* Blog styling */
-
 
 #blog {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 80px; */
 }
 
 .blog-container {
     width: 70%;
-
     padding: 50px;
 }
 
@@ -330,7 +306,6 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-
     padding: 20px;
     gap: 50px;
 }
@@ -344,7 +319,6 @@ body {
 
 .ico i {
     font-size: 1.4rem;
-    /* color: #20B486; */
 }
 
 .I i {
@@ -378,8 +352,6 @@ body {
 .num {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-
 }
 
 .num .n {
@@ -403,7 +375,6 @@ body {
 }
 
 .img-box {
-
     height: 300px;
     object-fit: cover;
 }
@@ -434,26 +405,21 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-
 }
 
 .second-II {
     display: flex;
     gap: 100px;
     align-items: center;
-
 }
 
-
-
-
 /* Contact box styling */
+
 #contact {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 80px;
     background-color: #F0FBF7;
 }
@@ -462,7 +428,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     width: 70%;
 }
 
@@ -508,6 +473,7 @@ body {
 }
 
 /* Footer Styling */
+
 footer {
     background-color: #f9f9f9;
     padding: 40px 20px;
@@ -616,6 +582,7 @@ footer button:hover {
 }
 
 /* Responsive Styles */
+
 @media screen and (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -632,11 +599,7 @@ footer button:hover {
     }
 }
 
-
-
 /* about */
-
-
 
 .scrollable-card-slider-container {
     display: flex;
@@ -648,6 +611,7 @@ footer button:hover {
 }
 
 /* Title Section */
+
 .title-section {
     flex: 0 0 30%;
     text-align: left;
@@ -667,6 +631,7 @@ footer button:hover {
 }
 
 /* Slider Container */
+
 .slider-container {
     position: relative;
     flex: 1;
@@ -679,6 +644,7 @@ footer button:hover {
     overflow-x: auto;
     scroll-behavior: smooth;
     padding-bottom: 1rem;
+    margin-top: 20px;
 }
 
 .card-wrapper::-webkit-scrollbar {
@@ -742,6 +708,7 @@ footer button:hover {
 }
 
 /* Dots */
+
 .dots-container {
     display: flex;
     justify-content: center;
@@ -774,13 +741,7 @@ footer button:hover {
     }
 }
 
-
-
-
-
-
 /* cards last wala */
-
 
 .feedback-section {
     position: relative;
@@ -792,7 +753,6 @@ footer button:hover {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-bottom: 20px;
-    /* Ensure space for buttons */
 }
 
 .feedback-heading h2 {
@@ -907,8 +867,6 @@ footer button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh; */
-    /* padding: 20px; */
     margin: 20px;
 }
 
@@ -923,7 +881,6 @@ footer button:hover {
     gap: 20px;
     overflow-x: auto;
     scroll-behavior: smooth;
-    /* padding: 20px; */
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1012,4 +969,26 @@ footer button:hover {
     .n4 p {
         font-size: 0.8rem;
     }
+}
+
+#m1 {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#m2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 160px;
+
+}
+
+#m3 {
+    margin: 10px 160px;
+
+}
+
+#m4 {
+    margin-top: 50px;
 }
